@@ -2,11 +2,13 @@ import Modules
 import praw
 import logging
 
-reddit = praw.Reddit(client_id='YNRmaCJKhq-6dw',
-                     client_secret='ptkM4O_8HGCwn_SzEYOpGELEYv0xaw',
-                     username='BaldakshBadal',
-                     password='RedditPassword',
-                     user_agent='Ballu')
+# [censored] = censored
+
+reddit = praw.Reddit(client_id='[censored]',
+                     client_secret='[censored]',
+                     username='[censored]',
+                     password='[censored]',
+                     user_agent='[censored]')
 
 
 logging.basicConfig(filename='Bot.log', level=logging.INFO)
